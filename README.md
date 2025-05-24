@@ -1,4 +1,9 @@
-# The Rust Programming Language
+# The Rust Programming Language - MODIFIED
+
+## CHANGES FROM BASE REPO:
+- Removed consent form popup. In the local version, it kept popping up every time I switched pages
+- Updated requirements to reflect node.js requirement
+- That's it. I'm not touching this beyond these changes. It's pretty cool as is.
 
 ![Build Status](https://github.com/rust-lang/book/workflows/CI/badge.svg)
 
@@ -42,7 +47,7 @@ This fork also requires a few mdBook preprocessors to support our experimental e
 
 You should install the same version of each preprocessor [used in CI](https://github.com/cognitive-engineering-lab/rust-book/blob/main/.github/workflows/main.yml).
 
-Finally, you need [pnpm](https://pnpm.io/installation).
+Finally, you need [pnpm](https://pnpm.io/installation). **Make sure node.js is also installed.** Homebrew, for instance, doesn't install node when you use it to install pnpm.
 
 The book also uses two mdbook plugins which are part of this repository. If you
 do not install them, you will see warnings when building and the output will not
