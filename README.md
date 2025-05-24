@@ -84,7 +84,7 @@ Then to build the book, type:
 ```bash
 $ mdbook build
 ```
-
+**NOTE: `mdbook build` may be required regardless of whether or not you used cargo-make.** Cargo make has failed to generate the book directory in my experience
 ### Output
 
 The output will be in the `book` subdirectory. To check it out, open it in
